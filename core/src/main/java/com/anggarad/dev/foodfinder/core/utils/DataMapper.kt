@@ -2,7 +2,6 @@ package com.anggarad.dev.foodfinder.core.utils
 
 import com.anggarad.dev.foodfinder.core.data.source.local.entity.RecipeDetailEntity
 import com.anggarad.dev.foodfinder.core.data.source.remote.response.Feed
-import com.anggarad.dev.foodfinder.core.data.source.remote.response.Ingredients
 import com.anggarad.dev.foodfinder.core.domain.model.RecipeDetail
 
 object DataMapper {

@@ -6,7 +6,6 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.anggarad.dev.foodfinder.core.R
 import com.anggarad.dev.foodfinder.core.databinding.IngredientItemBinding
-import com.anggarad.dev.foodfinder.core.databinding.PrepListLayoutBinding
 
 class IngredientAdapter : RecyclerView.Adapter<IngredientAdapter.PrepViewHolder>() {
 
