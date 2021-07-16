@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/number_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:drawableEnd="@drawable/number_background"
+        android:drawablePadding="5dp"
+        android:elegantTextHeight="false"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:minWidth="30dp"
+        android:textAlignment="center"
+        android:textColor="?attr/colorOnSecondary"
+        android:textSize="20sp"
+        tools:text="@string/number_list" />
+
+
+    <TextView
+        android:id="@+id/list_prep_steps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:elegantTextHeight="false"
+        android:paddingBottom="5dp"
+        android:textSize="16sp"
+        tools:text="@string/default_prep" />
+
+</LinearLayout>

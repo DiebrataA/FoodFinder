@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="recipe_title">Recipe Title</string>
+    <string name="recipe_image_desc">recipe image</string>
+    <string name="title_text">Recipe Title</string>
+    <string name="subtitle_text">time</string>
+    <string name="rating">5.0</string>
+    <string name="number_list">0</string>
+    <string name="default_prep">Popular Recipe for Today</string>
+</resources>
