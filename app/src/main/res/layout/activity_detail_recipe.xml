@@ -61,6 +61,7 @@
         android:contentDescription="@string/favorite"
         app:layout_anchor="@id/app_bar"
         android:clickable="true"
+        android:focusableInTouchMode="false"
         android:focusable="false"
         app:layout_anchorGravity="bottom|end"
         app:srcCompat="@drawable/ic_favorite_black" />

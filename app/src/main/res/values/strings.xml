@@ -1,7 +1,5 @@
 <resources>
     <string name="app_name">FoodFinder</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="no_data">No favorite so far</string>
     <string name="error">Something is Wrong..</string>
     <string name="menu_home">Home</string>

@@ -17,16 +17,21 @@ android {
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
-
+        buildConfigField("String", "YUMMLY_API_KEY", api_key_yummly)
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
 
     }
 
     buildTypes {
         release {
-            minifyEnabled false
-//            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
     compileOptions {
@@ -51,7 +56,8 @@ dependencies {
     implementation "com.squareup.retrofit2:converter-gson:$retrofit_version"
     implementation "com.squareup.okhttp3:logging-interceptor:$logging_interceptor_version"
 
-
+    implementation "net.zetetic:android-database-sqlcipher:4.4.3"
+    implementation "androidx.sqlite:sqlite-ktx:2.1.0"
 
     // coroutine
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$kotlin_coroutines_version"

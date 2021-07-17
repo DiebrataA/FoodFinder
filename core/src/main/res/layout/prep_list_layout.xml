@@ -18,7 +18,7 @@
         android:includeFontPadding="false"
         android:minWidth="30dp"
         android:textAlignment="center"
-        android:textColor="?attr/colorOnSecondary"
+        android:textColor="?attr/colorOnPrimary"
         android:textSize="20sp"
         tools:text="@string/number_list" />
 
@@ -31,6 +31,7 @@
         android:elegantTextHeight="false"
         android:paddingBottom="5dp"
         android:textSize="16sp"
+        android:textColor="?attr/colorOnPrimary"
         tools:text="@string/default_prep" />
 
 </LinearLayout>
