@@ -7,4 +7,5 @@
     <string name="rating">5.0</string>
     <string name="number_list">0</string>
     <string name="default_prep">Popular Recipe for Today</string>
+    <string name="text_subtitle">This is the subtitle Text</string>
 </resources>

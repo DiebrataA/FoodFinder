@@ -7,5 +7,6 @@ import com.anggarad.dev.foodfinder.core.domain.usecase.RecipeUseCase
 
 class HomeViewModel(recipeUseCase: RecipeUseCase): ViewModel() {
     val popularRecipe = recipeUseCase.getPopularRecipe().asLiveData()
+    val trendingRecipe = recipeUseCase.getTrendingRecipe().asLiveData()
 
 }
